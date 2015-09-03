@@ -6,8 +6,13 @@ h1{
 h2{
     font-size: 30px;
     color: black;
-    font-family: cursive;
+    font-family:cursive;
     
+}
+h3{
+    font-size: 25px;
+    color: black;
+    font-family: inherit;
 }
 /*#cardcontainer{
  cursor: pointer;
@@ -16,18 +21,18 @@ h2{
  position: relative;
  width: 800px;
 
-}
+}*/
 #card{
     height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  transition: all 3s ease-in-out;
+  transition: all 2.5s ease-in-out;
   width: 100%;
 }
 #card:hover {
-  transform: rotateY(180deg);
+  transform: rotateY(90deg);
 }
-#card .front {
+/*#card .front {
   backface-visibility: hidden;
   border-radius: 10px;
   height: 100%;
@@ -42,3 +47,12 @@ h2{
   text-align: center;
   transform: rotateY(180deg);
 }*/
+
+#object .item{
+  margin: 3px;
+}
+#object .item img{
+    display:inline-block;
+  width: auto;
+  height: auto;
+}
